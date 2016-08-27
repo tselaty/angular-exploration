@@ -6,7 +6,7 @@ angular.module('exploration', [
   'exploration.gear',
 ]).
 config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
-  $locationProvider.hashPrefix('!').html5Mode(true);
+  $locationProvider.hashPrefix('!');
 
   $routeProvider.otherwise({redirectTo: '/gear'});
 }]);

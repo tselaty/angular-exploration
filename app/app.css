@@ -1,0 +1,44 @@
+body {
+  background: #000;
+  color: #222;
+  font-family: Arial;
+}
+
+body. html {
+  height: 100%;
+}
+
+.game-container {
+  width: 600px;
+  background: url(images/bg/parchment.jpg) no-repeat;
+  height: 600px;
+  margin: 0 auto;
+}
+
+.user-bar {
+  background: rgb(74, 64, 59);
+  color: #fff;
+  padding: 10px;
+}
+
+.user-bar .current-character-bubble {
+  background: url(images/gui/character-circle.png) no-repeat;
+  min-width: 70px;
+  min-height: 70px;
+  position: relative;
+  z-index: 50;
+}
+
+.user-bar .current-character-bubble .character {
+  position: absolute;
+  top: 19px;
+  left: 21px;
+  z-index: 60;
+}
+
+.user-bar .current-character-bubble .weapon {
+  position: absolute;
+  top: 19px;
+  left: 21px;
+  z-index: 70;
+}
